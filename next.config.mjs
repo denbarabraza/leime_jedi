@@ -1,14 +1,13 @@
+import { fileURLToPath } from 'url';
 import path from 'path';
 
-const __filename = import.meta.url;
-const __dirname = path.dirname(new URL(__filename).pathname);
-
-const sassOptions = {
-  includePaths: [path.join(__dirname, 'styles')],
-};
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const nextConfig = {
-  sassOptions,
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
 };
 
 export default nextConfig;
