@@ -1,0 +1,54 @@
+@mixin reset-margin-padding() {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin flex-between-center() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-around-center() {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin flex-center-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-end-center() {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+@mixin flex-start() {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+@mixin flex-column-center() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin flex-column-between() {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@mixin flex-between-start() {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+

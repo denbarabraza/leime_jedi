@@ -1,0 +1,52 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.navMenu {
+  @include flex-end-center;
+  @include reset-margin-padding;
+  gap: $gap-30;
+  height: $height-100pr;
+
+  a {
+    color: $black-color;
+    transition: transform 250ms;
+
+    &:hover {
+      color: $blue-color;
+    }
+  }
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-color: $blue-color;
+  text-underline-offset: 10px;
+}
+
+.burger {
+  display: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  @media (max-width: $tablet) {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}
+
+.linkItem {
+  max-width: $width-110px;
+  font-weight: $fontWeight-700;
+  font-size: $fontSize-13;
+  line-height: $line-height-195;
+  text-decoration: none;
+}
