@@ -5,8 +5,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
-  margin-top: 96px;
+  justify-content: center;
+  padding: 60px 0;
 }
 
 .pageInformationStatus {
@@ -14,5 +14,12 @@
   font-weight: $fontWeight-700;
   line-height: $line-height-36;
   color: $dark-color;
+
+  @media (max-width: $laptop) {
+    font-size: $fontSize-17;
+    font-weight: $fontWeight-700;
+    line-height: $line-height-36;
+  }
+
 }
 

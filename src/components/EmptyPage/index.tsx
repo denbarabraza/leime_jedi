@@ -10,7 +10,7 @@ export const EmptyPage: FC<IEmptyPage> = ({ page }) => {
   return (
     <div className={styles.container}>
       <p className={styles.pageInformationStatus}>{page} is under construction</p>
-      <Image src={image} alt={page} width={300} />
+      <Image src={image} alt={page} width={250} />
     </div>
   );
 };

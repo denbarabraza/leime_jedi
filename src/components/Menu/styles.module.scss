@@ -15,6 +15,14 @@
       color: $blue-color;
     }
   }
+
+  @media (max-width: $tablet) {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: $gap-20;
+    padding: 16px;
+  }
 }
 
 .active {

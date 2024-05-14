@@ -5,6 +5,11 @@
   @include flex-center-center;
   flex-direction: column;
   padding: 20px 0;
+  gap: 20px;
+
+  @media (max-width: $tablet) {
+    padding: 0 0 35px 0
+  }
 }
 
 .wrapper {
@@ -13,5 +18,17 @@
 
   @media (max-width: $tablet) {
     flex-direction: column;
+  }
+}
+
+.menuSection {
+  @media (max-width: $tablet) {
+    display: none;
+  }
+}
+
+.burgerMenu {
+  @media (min-width: $tablet) {
+    display: none;
   }
 }
