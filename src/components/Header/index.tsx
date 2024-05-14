@@ -1,7 +1,7 @@
 import React from 'react';
 import { BurgerMenu } from 'components/burger-menu';
-import { Logo } from 'components/Logo';
-import { Menu } from 'components/Menu';
+import { Logo } from 'components/logo';
+import { Menu } from 'components/menu';
 
 import { LogoColor } from '@/enums';
 

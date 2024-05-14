@@ -2,7 +2,7 @@
 
 import React, { FC, memo, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import { Menu } from 'components/Menu';
+import { Menu } from 'components/menu';
 
 import { useOnClickOutside } from '@/hooks/useOnClickOutside';
 import { getValidPathName } from '@/utils/get-valid-path-name';

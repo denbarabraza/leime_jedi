@@ -1,12 +1,11 @@
+import avatar1 from '@/components/footer/assets/avatar1.png';
+import avatar2 from '@/components/footer/assets/avatar2.png';
+import avatar3 from '@/components/footer/assets/avatar3.png';
+import facebook from '@/components/footer/assets/facebook.png';
+import google from '@/components/footer/assets/google.png';
+import linkidin from '@/components/footer/assets/linkidin.png';
+import twitter from '@/components/footer/assets/twitter.png';
 import { IFooterData } from '@/components/footer/interface';
-
-import avatar1 from '../assets/avatar1.png';
-import avatar2 from '../assets/avatar2.png';
-import avatar3 from '../assets/avatar3.png';
-import facebook from '../assets/facebook.png';
-import google from '../assets/google.png';
-import linkidin from '../assets/linkidin.png';
-import twitter from '../assets/twitter.png';
 
 export const footerData: IFooterData = {
   address: '28 Jackson Btvd Ste\n1020 Chicago\nIL 60604-2340',
