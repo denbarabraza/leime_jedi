@@ -1,4 +1,5 @@
 import React from 'react';
+import { Logo } from 'components/Logo';
 
 import { AddressBlock } from '@/components/footer/components/address-block';
 import { BlogBlock } from '@/components/footer/components/blog-block';
@@ -6,7 +7,6 @@ import { ContactBlock } from '@/components/footer/components/contact-block';
 import { ContactForm } from '@/components/footer/components/contact-form';
 import { SocialMediaBlock } from '@/components/footer/components/social-block';
 import { footerData } from '@/components/footer/constants/footer-data';
-import { Logo } from '@/components/logo';
 import { LogoColor } from '@/enums';
 
 import styles from './styles.module.scss';
