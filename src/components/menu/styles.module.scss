@@ -18,6 +18,7 @@
 
   @media (max-width: $tablet) {
     @include flex-start();
+    flex-direction: column;
     gap: $gap-20;
     padding: 16px;
   }
