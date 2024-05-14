@@ -1,8 +1,8 @@
 import React from 'react';
-import { BurgerMenu } from 'components/burger-menu';
-import { Logo } from 'components/logo';
-import { Menu } from 'components/menu';
 
+import { BurgerMenu } from '@/components/burger-menu';
+import { Logo } from '@/components/logo';
+import { Menu } from '@/components/menu';
 import { LogoColor } from '@/enums';
 
 import styles from './styles.module.scss';

@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 import { headerMenu } from '@/constants/header-menu';
 import { checkPathActive } from '@/utils/check-path-active';
 
-import styles from '@/components/menu/styles.module.scss';
+import styles from './styles.module.scss';
 
 export const Menu = () => {
   const pathName = usePathname();

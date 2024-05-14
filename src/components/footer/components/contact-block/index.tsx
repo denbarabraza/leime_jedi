@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { IContactBlock } from '@/components/footer/components/contact-block/interface';
+import { IContactBlock } from './interface';
 
 import styles from './styles.module.scss';
 

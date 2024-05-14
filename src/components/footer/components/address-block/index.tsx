@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { IAddressBlock } from '@/components/footer/components/address-block/interface';
+import { IAddressBlock } from './interface';
 
 import styles from './styles.module.scss';
 

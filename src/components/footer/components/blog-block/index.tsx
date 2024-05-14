@@ -1,8 +1,9 @@
 import { FC } from 'react';
 import Image from 'next/image';
 
-import arrow from '@/components/footer/assets/arrow.png';
-import { IBlogBlock } from '@/components/footer/components/blog-block/interface';
+import arrow from '../../assets/arrow.png';
+
+import { IBlogBlock } from './interface';
 
 import styles from './styles.module.scss';
 
