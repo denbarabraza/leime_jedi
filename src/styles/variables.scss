@@ -6,7 +6,7 @@ $width-100vw: 100vw;
 $width-110px: 110px;
 
 $width-100pr: 100%;
-$width-80pr: 80%;
+$width-90pr: 90%;
 $width-50pr: 50%;
 
 // Gaps
@@ -20,9 +20,11 @@ $fontWeight-500: 500;
 $fontWeight-700: 700;
 
 // Font Sizes
+$fontSize-12: 12px;
 $fontSize-13: 13px;
 $fontSize-14: 14px;
 $fontSize-16: 16px;
+$fontSize-17: 17px;
 $fontSize-24: 24px;
 $fontSize-30: 30px;
 $fontSize-34: 34px;
@@ -36,9 +38,11 @@ $fontFamily-Arial: 'Arial', sans-serif;
 
 
 // Line Heights
+$line-height-18: 18px;
 $line-height-195: 19.5px;
 $line-height-21: 21px;
 $line-height-24: 24px;
+$line-height-25: 25px;
 $line-height-36: 36px;
 $line-height-40: 40px;
 $line-height-476: 47.6px;
@@ -59,123 +63,19 @@ $black-color: #000000;
 $dark-yellow-color: #eec14a;
 $opacity03-gray-color: #6767674C;
 $dark-gray-color: #353537;
+$graphite-gray-color: #303030;
 $light-gray-color: #6e6e6e;
+$slate-gray-color: #8C8C8C;
+$steel-gray-color:#808080;
 $dark-color: #212529;
+$turquoise-color: #43CBCB;
+$red-color: #D7403A;
 
-
+$letter-spacing-1: 1px;
+$letter-spacing-07: 0.7px;
+$letter-spacing-03: 0.3px;
+$letter-spacing-015: 0.15px
 /*
-$primary-color: #232536;
-$yellow-color: #fbd050;
-$dark-yellow-color: #eec14a;
-$purple-color: #5a34a9;
-$dark-gray-color: #4c4c4c;
-$blue-gray-color: #2e3040;
-$medium-gray-color: #6e6f77;
-$gray-color: #e5e5e5;
-$lavender-color: #f4f0f8;
-$beige-color: #fcf7eb;
-$white-color: #ffffff;
-$red-color: #ef4545;
-$black-opacity-color: rgba(0, 0, 0, 0.7);
-$translusent-color: rgba(0, 0, 0, 0.1);
-
-$width-100pr: 100%;
-$width-90pr: 90%;
-$width-70pr: 70%;
-$width-40pr: 40%;
-$width-50pr: 50%;
-$width-10pr: 10%;
-$width-1280px: 1280px;
-$width-1024px: 1024px;
-$width-780px: 780px;
-$width-770px: 770px;
-$width-700px: 700px;
-$width-580px: 580px;
-$width-515px: 515px;
-$width-470px: 470px;
-$width-414px: 414px;
-$width-300px: 300px;
-$width-325px: 325px;
-$width-250px: 250px;
-$width-200px: 200px;
-$width-180px: 180px;
-$width-150px: 150px;
-$width-130px: 130px;
-$width-110px: 110px;
-$width-70px: 70px;
-$width-64px: 64px;
-$width-55px: 55px;
-$width-50px: 50px;
-$width-40px: 40px;
-$width-30px: 30px;
-$width-25px: 25px;
-$width-20px: 20px;
-$width-4px: 4px;
-$width-50vw: 50vw;
-$width-70vw: 70vw;
-$width-80vw: 80vw;
-$width-90vw: 90vw;
-$width-100vw: 100vw;
-
-$height-4px: 4px;
-$height-25px: 25px;
-$height-30px: 30px;
-$height-50px: 50px;
-$height-56px: 56px;
-$height-60px: 60px;
-$height-64px: 64px;
-$height-70px: 70px;
-$height-76px: 76px;
-$height-130px: 130px;
-$height-144px: 144px;
-$height-200px: 200px;
-$height-256px: 256px;
-$height-300px: 300px;
-$height-440px: 440px;
-$height-10pr: 10%;
-$height-50pr: 50%;
-$height-100pr: 100%;
-$height-30vh: 30vh;
-$height-50vh: 50vh;
-$height-70vh: 70vh;
-$height-90vh: 90vh;
-$height-100vh: 100vh;
-
-$margin-5px: 5px;
-$margin-10px: 10px;
-$margin-20px: 20px;
-$margin-22px: 22px;
-$margin-36px: 36px;
-$margin-90px: 90px;
-$margin-200px: 200px;
-
-$padding-10px: 10px;
-$padding-12px: 12px;
-$padding-16px: 16px;
-$padding-20px: 20px;
-$padding-22px: 22px;
-$padding-30px: 30px;
-$padding-46px: 46px;
-$padding-72px: 72px;
-
-$fontSize-12px: 12px;
-$fontSize-14px: 14px;
-$fontSize-16px: 16px;
-$fontSize-18px: 18px;
-$fontSize-22px: 22px;
-$fontSize-24px: 24px;
-$fontSize-26px: 26px;
-$fontSize-28px: 28px;
-$fontSize-32px: 32px;
-$fontSize-36px: 36px;
-$fontSize-48px: 48px;
-$fontSize-56px: 56px;
-
-$fontWeight-500: 500;
-$fontWeight-600: 600;
-$fontWeight-700: 700;
-$fontWeight-900: 900;
-
 $opacity-0: 0;
 $opacity-06: 0.6;
 $opacity-08: 0.8;

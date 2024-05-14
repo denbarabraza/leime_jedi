@@ -33,14 +33,13 @@
 
 
   &::-webkit-scrollbar-thumb:horizontal {
-    background-color: $light-gray-color;
+    background-color: $graphite-gray-color;
   }
 
   &::-webkit-scrollbar-thumb:hover:horizontal,
   &::-webkit-scrollbar-thumb:active:horizontal {
     background-color: $light-gray-color;
   }
-
 }
 
 a {

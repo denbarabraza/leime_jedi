@@ -1,0 +1,24 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.titleInfo {
+  font-weight: $fontWeight-700;
+  font-size: $fontSize-16;
+  line-height: $line-height-24;
+  color: $white-color;
+}
+
+.infoItem {
+  font-size: $fontSize-16;
+  line-height: $line-height-24;
+  font-weight: $fontWeight-400;
+  color: $slate-gray-color;
+}
+
+.contactContainer {
+  @media (max-width: $tablet) {
+    display: none;
+  }
+}
+
+

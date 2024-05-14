@@ -16,6 +16,7 @@
   width: 100vw;
   flex-wrap: wrap;
   grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 85px;
 
   @media (max-width: $laptop) {
     grid-template-columns: repeat(3, 1fr);
@@ -23,6 +24,7 @@
 
   @media (max-width: $tablet) {
     grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 35px;
   }
 }
 

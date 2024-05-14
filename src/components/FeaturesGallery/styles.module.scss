@@ -28,6 +28,7 @@
   line-height: $line-height-195;
   cursor: pointer;
   color: $light-gray-color;
+  letter-spacing: $letter-spacing-07;
 
   &:hover {
     color: $blue-color;
@@ -38,6 +39,7 @@
   text-decoration: underline;
   text-decoration-color: $blue-color;
   text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
 }
 
 .images {

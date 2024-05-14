@@ -21,6 +21,7 @@
   text-decoration: underline;
   text-decoration-color: $blue-color;
   text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
 }
 
 .burger {
@@ -49,4 +50,5 @@
   font-size: $fontSize-13;
   line-height: $line-height-195;
   text-decoration: none;
+  letter-spacing: $letter-spacing-07;
 }

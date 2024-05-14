@@ -2,8 +2,10 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
+import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { MainImage } from '@/components/MainImage';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 
 import './globals.scss';
 import styles from '@/app/page.module.scss';
@@ -23,14 +25,16 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <div className={styles.container}>
-          <Header />
-          <main className={styles.main}>
-            <MainImage />
-            {children}
-          </main>
-          <footer>footer</footer>
-        </div>
+        <AppRouterCacheProvider>
+          <div className={styles.container}>
+            <Header />
+            <main className={styles.main}>
+              <MainImage />
+              {children}
+            </main>
+            <Footer />
+          </div>
+        </AppRouterCacheProvider>
       </body>
     </html>
   );

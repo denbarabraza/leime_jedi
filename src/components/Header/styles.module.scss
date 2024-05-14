@@ -9,38 +9,9 @@
 
 .wrapper {
   @include flex-between-center;
-  width: $width-80pr;
+  width: $width-90pr;
 
   @media (max-width: $tablet) {
     flex-direction: column;
   }
-}
-
-.logoItem {
-  @include flex-start;
-  @include reset-margin-padding;
-  gap: $gap-10;
-
-  @media (max-width: $tablet) {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-.logoTitleItem {
-  @include flex-start;
-  flex-direction: column;
-  align-items: center;
-
-  @media (max-width: $tablet) {
-    gap: $gap-20;
-  }
-}
-
-.logoTitleText {
-  font-weight: $fontWeight-400;
-  font-size: $fontSize-14;
-  line-height: $line-height-21;
-  color: $dark-color;
 }
