@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { FeaturesGallery } from '@/components/FeaturesGallery';
-import { FeaturesList } from '@/components/FeaturesList';
+import { FeaturesGallery } from '@/components/features-gallery';
+import { FeaturesList } from '@/components/features-list';
 
 import styles from './styles.module.scss';
 

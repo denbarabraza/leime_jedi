@@ -1,0 +1,50 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.mainImageContainer {
+  @include flex-center-center();
+  position: relative;
+  width: $width-100pr;
+  height: $height-60vh;
+}
+
+.overlay {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: $width-100pr;
+  height: 20px;
+  background-color: $opacity03-gray-color;
+  opacity: 0.5;
+}
+
+.mainImage {
+  width: $width-100pr;
+  height: $height-100pr;
+  object-fit: cover;
+}
+
+.prevText,
+.nextText {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.prevText:hover,
+.nextText:hover {
+  height: 35px;
+  width: 35px;
+}
+
+
+.prevText {
+  left: 10px;
+}
+
+.nextText {
+  right: 10px;
+}
+

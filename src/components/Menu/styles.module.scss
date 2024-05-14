@@ -17,9 +17,7 @@
   }
 
   @media (max-width: $tablet) {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    @include flex-start();
     gap: $gap-20;
     padding: 16px;
   }
@@ -53,7 +51,7 @@
 }
 
 .linkItem {
-  max-width: $width-110px;
+  max-width: 110px;
   font-weight: $fontWeight-700;
   font-size: $fontSize-13;
   line-height: $line-height-195;

@@ -1,7 +1,6 @@
 import React from 'react';
+import { EmptyPage } from 'components/empty-page';
 
-import { EmptyPage } from '@/components/EmptyPage';
-
-export default function PortfolioPage() {
+export default function BlogPage() {
   return <EmptyPage page='Blog page' />;
 }

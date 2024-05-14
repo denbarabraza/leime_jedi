@@ -1,0 +1,52 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.contactFormBTitle {
+  font-size: $fontSize-16;
+  line-height: $line-height-24;
+  font-weight: $fontWeight-700;
+  color: $white-color;
+  letter-spacing: $letter-spacing-1;
+  margin-top: 15px;
+}
+
+.contactFormSection {
+  @include flex-start();
+  flex-direction: column;
+  gap: $gap-20;
+
+  @media (max-width: $tablet) {
+    display: none;
+  }
+}
+
+.formItem {
+  @include reset-margin-padding()
+}
+
+.redSquare {
+  @include flex-center-center();
+  position: absolute;
+  top: 50%;
+  right: 23px;
+  transform: translate(0, -50%);
+  width: 21px;
+  height: 21px;
+  background-color: $red-color;
+  border-radius: 5px;
+  gap: $gap-2;
+
+  .circle {
+    width: 3.06px;
+    height: 3.04px;
+    background-color: $white-color;
+    border-radius: 50%;
+  }
+
+  .line {
+    width: 1px;
+    height: 8px;
+    background-color: $white-color;
+    border-radius: 50%;
+  }
+}

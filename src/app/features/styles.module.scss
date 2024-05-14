@@ -2,10 +2,8 @@
 @import "styles/mixins";
 
 .wrapper {
-  display: flex;
+  @include flex-center-center();
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .projectsTitleItem {

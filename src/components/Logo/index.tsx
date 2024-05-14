@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 import { LogoColor } from '@/enums';
 
-import logoBlack from './assets/logoBlack.png';
-import logoWhite from './assets/logoWhite.png';
-import titleBlack from './assets/titleBlack.png';
-import titleWhite from './assets/titleWhite.png';
+import logoBlack from './assets/logo-black.png';
+import logoWhite from './assets/logo-white.png';
+import titleBlack from './assets/title-black.png';
+import titleWhite from './assets/title-white.png';
 
 import styles from './styles.module.scss';
 

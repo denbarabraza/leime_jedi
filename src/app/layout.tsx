@@ -2,9 +2,9 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
-import { Footer } from '@/components/Footer';
-import { Header } from '@/components/Header';
-import { MainImage } from '@/components/MainImage';
+import { Footer } from '@/components/footer';
+import { Header } from '@/components/header';
+import { MainImage } from '@/components/main-image';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 
 import './globals.scss';

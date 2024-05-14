@@ -4,8 +4,8 @@ import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-import { headerMenu } from '@/constants/headerMenu';
-import { checkPathActive } from '@/utils/checkPathActive';
+import { headerMenu } from '@/constants/header-menu';
+import { checkPathActive } from '@/utils/check-path-active';
 
 import styles from './styles.module.scss';
 

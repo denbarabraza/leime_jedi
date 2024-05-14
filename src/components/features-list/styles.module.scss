@@ -1,0 +1,53 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.featuresListTitle {
+  font-size: $fontSize-40;
+  font-weight: $fontWeight-400;
+  line-height: $line-height-48;
+  color: $dark-color;
+  text-align: center;
+  margin: 55px 0 50px 0;
+}
+
+.featuresList {
+  display: grid;
+  grid-gap: $gap-30;
+  padding: 0 30px;
+  width: $width-100vw;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 85px;
+
+  @media (max-width: $laptop) {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 47px;
+  }
+
+  @media (max-width: $tablet) {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 35px;
+    padding: 0 8px;
+  }
+}
+
+.featureItem {
+  @include flex-start();
+  flex-direction: column;
+  gap: $gap-10;
+  padding: 15px;
+}
+
+.featureTitleItem {
+  font-size: $fontSize-24;
+  font-weight: $fontWeight-700;
+  line-height: $line-height-36;
+  color: $dark-color;
+}
+
+.featureDescriptionItem{
+  font-size: $fontSize-16;
+  font-weight: $fontWeight-400;
+  line-height: $line-height-24;
+  color: $dark-color;
+}

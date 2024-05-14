@@ -1,0 +1,58 @@
+@import "styles/variables";
+@import "styles/mixins";
+
+.blogContainer {
+  @media (max-width: $tablet) {
+    display: none;
+  }
+}
+
+.blogList {
+  @include flex-start();
+  flex-direction: column;
+  gap: $gap-20;
+  padding-top: 20px;
+}
+
+.blogItem {
+  @include flex-start-center();
+  gap: $gap-20;
+}
+
+.blogBlockTitle {
+  font-size: $fontSize-16;
+  line-height: $line-height-24;
+  font-weight: $fontWeight-700;
+  color: $white-color;
+  letter-spacing: $letter-spacing-1;
+  margin-top: 15px;
+}
+
+.blogInfoItem {
+  display: flex;
+  flex-direction: column;
+  gap: $gap-2;
+}
+
+.blogDate {
+  font-size: $fontSize-12;
+  line-height: $line-height-18;
+  font-weight: $fontWeight-400;
+  color: $steel-gray-color;
+  letter-spacing: $letter-spacing-03
+}
+
+.blogDateItem {
+  @include flex-start();
+  gap: $gap-4;
+}
+
+.blogDescription {
+  font-size: $fontSize-17;
+  line-height: $line-height-25;
+  font-weight: $fontWeight-400;
+  letter-spacing: $letter-spacing-03;
+  color: $white-color;
+}
+
+
