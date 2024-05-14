@@ -1,3 +1,8 @@
+/**
+ * Retrieves a valid path name from the given path.
+ * @param pathName - The path name to retrieve the valid name from.
+ * @returns Returns the valid path name.
+ */
 export const getValidPathName = (pathName: string): string => {
   if (pathName === '/') {
     return 'Home';

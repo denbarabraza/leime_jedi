@@ -22,7 +22,7 @@
   width: $width-100vw;
   height: $height-50vh;
   position: absolute;
-  z-index: $zindex-4000;
+  z-index: $zIndex-4000;
   gap: $gap-10;
   background-color:  $light-grayish-color;
   transition: transform 0.3s ease-in-out;
@@ -80,7 +80,7 @@
 
   div {
     position: relative;
-    z-index: $zindex-5000;
+    z-index: $zIndex-5000;
     width: 30px;
     height: 2px;
     border-radius: 3px;

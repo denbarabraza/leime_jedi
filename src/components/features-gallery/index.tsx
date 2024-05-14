@@ -8,6 +8,15 @@ import { IGalleryImage } from './interface';
 
 import styles from './styles.module.scss';
 
+/**
+ * The FeaturesGallery component displays an image gallery with the ability to filter images by category.
+ * In the absence of specific requirements and slight difficulty understanding the design, the component is implemented according to my own interpretation.
+ * Key comments in the code for better understanding:
+   -handleCategoryClick handles the click on a category and updates the selected category.
+   -isCategoryActive checks if a category is active.
+   -filteredImages filters the images based on the selected category.
+ */
+
 export const FeaturesGallery = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('ALL');
 
