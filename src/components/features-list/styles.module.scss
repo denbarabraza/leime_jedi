@@ -1,5 +1,5 @@
-@import "styles/variables";
-@import "styles/mixins";
+@import 'styles/variables';
+@import 'styles/mixins';
 
 .featuresListTitle {
   font-size: $fontSize-40;
@@ -45,7 +45,7 @@
   color: $dark-color;
 }
 
-.featureDescriptionItem{
+.featureDescriptionItem {
   font-size: $fontSize-16;
   font-weight: $fontWeight-400;
   line-height: $line-height-24;

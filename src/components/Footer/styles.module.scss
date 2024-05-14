@@ -1,5 +1,5 @@
-@import "styles/variables";
-@import "styles/mixins";
+@import 'styles/variables';
+@import 'styles/mixins';
 
 .footer {
   @include flex-between-center;
@@ -30,7 +30,7 @@
   height: $height-100pr;
 
   @media (max-width: $tablet) {
-    gap: $gap-20
+    gap: $gap-20;
   }
 }
 
@@ -52,7 +52,6 @@
   margin-bottom: 2px;
 }
 
-
 .infoBlock {
   display: flex;
   justify-content: flex-start;
@@ -66,5 +65,3 @@
     margin: 0;
   }
 }
-
-

@@ -1,5 +1,5 @@
-@import "styles/variables";
-@import "styles/mixins";
+@import 'styles/variables';
+@import 'styles/mixins';
 
 * {
   @include reset-margin-padding;
@@ -30,7 +30,6 @@
   &::-webkit-scrollbar-corner {
     background-color: $white-color;
   }
-
 
   &::-webkit-scrollbar-thumb:horizontal {
     background-color: $graphite-gray-color;

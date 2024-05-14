@@ -1,5 +1,5 @@
-@import "styles/variables";
-@import "styles/mixins";
+@import 'styles/variables';
+@import 'styles/mixins';
 
 .wrapper {
   @include flex-start-center();
@@ -24,7 +24,7 @@
   position: absolute;
   z-index: $zIndex-4000;
   gap: $gap-10;
-  background-color:  $light-grayish-color;
+  background-color: $light-grayish-color;
   transition: transform 0.3s ease-in-out;
   transform: translateX(-100%);
   overflow: hidden;
@@ -41,7 +41,6 @@
   width: $width-100pr;
   height: $height-100pr;
 }
-
 
 .container {
   &.open {
@@ -89,6 +88,3 @@
     background-color: $black-color;
   }
 }
-
-
-

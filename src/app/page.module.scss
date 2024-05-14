@@ -1,5 +1,5 @@
-@import "styles/variables";
-@import "styles/mixins";
+@import 'styles/variables';
+@import 'styles/mixins';
 
 .container {
   display: flex;
@@ -11,6 +11,3 @@
   @include flex-center-center();
   flex-direction: column;
 }
-
-
-

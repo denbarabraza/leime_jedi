@@ -1,5 +1,5 @@
-@import "styles/variables";
-@import "styles/mixins";
+@import 'styles/variables';
+@import 'styles/mixins';
 
 .blogContainer {
   @media (max-width: $tablet) {
@@ -39,7 +39,7 @@
   line-height: $line-height-18;
   font-weight: $fontWeight-400;
   color: $steel-gray-color;
-  letter-spacing: $letter-spacing-03
+  letter-spacing: $letter-spacing-03;
 }
 
 .blogDateItem {
@@ -54,5 +54,3 @@
   letter-spacing: $letter-spacing-03;
   color: $white-color;
 }
-
-
